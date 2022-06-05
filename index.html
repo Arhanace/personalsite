@@ -8,7 +8,7 @@
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
-
+		<div id="pt" class="canvas"></div>
 		<!-- Wrapper -->
 			<div id="wrapper">
 
@@ -54,7 +54,7 @@
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
+								<form method="post" action="#thanks">
 									<div class="fields">
 										<div class="field half">
 											<label for="name">Name</label>
@@ -81,6 +81,12 @@
 									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
 							</article>
+
+							<article id="thanks">
+				                <h2 class="major">Thanks!</h2>
+				                <span class="image main"><img src="landing/images/mail.jpeg" alt=""/></span>
+				                <p>Thanks for reaching out! I will be in contact soon.</p>
+           					</article>
 
 						<!-- Elements -->
 
@@ -111,23 +117,7 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
-			<script src="three.r119.min.js"></script>
-			<script src="vanta.birds.min.js"></script>
-			<script>
-			VANTA.BIRDS({
-			  el: "#head",
-			  mouseControls: true,
-			  touchControls: true,
-			  gyroControls: false,
-			  minHeight: 200.00,
-			  minWidth: 200.00,
-			  scale: 1.00,
-			  scaleMobile: 1.00,
-			  birdSize: 1.20,
-			  quantity: 3.00
-			})
-			</script>
+			<script src="/assets/js/canvas.js"></script>
 
 	</body>
 </html>
